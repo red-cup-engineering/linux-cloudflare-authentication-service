@@ -36,10 +36,10 @@
     "check": "node --check scripts/authenticate-linux-colony-with-cloudflare.mjs && node --check src/authenticate-linux-colony-with-cloudflare.mjs && npm test && npm pack --dry-run"
   },
   "dependencies": {
-    "@red-cup-engineering/cbor-services-section": "workspace:*",
+    "@red-cup-engineering/cbor-engineering-services-section": "workspace:*",
     "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
     "@red-cup-engineering/computer-file-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/http-services-section": "workspace:*",
+    "@red-cup-engineering/http-engineering-services-section": "workspace:*",
     "wrangler": "4.114.0",
     "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*"
   },
